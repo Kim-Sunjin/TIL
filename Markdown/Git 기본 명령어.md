@@ -91,3 +91,42 @@ Branch 'main' set up to track remote branch 'main' from 'origin'.
   - git push 라고 명령을 하더라도 설정된 원격저장소에 브랜치를 push
   - git push -u origin master
 
+### 원격저장소 설정 명령어
+
+```bash
+$ git remote -v
+```
+
+- remote 확인 
+
+
+
+```bash
+$ git remote add <이름><url>
+```
+
+- remote 추가
+
+
+
+```bash
+$ git remote rm <이름>
+```
+
+- remote 삭제
+
+
+
+```bash
+$ git remote set-url <name><url>
+```
+
+- remoet url 변경
+
+
+
+```bash
+$ git remote renaem <이름><새이름>
+```
+
+- remote 이름 변경

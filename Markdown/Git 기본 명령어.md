@@ -130,3 +130,23 @@ $ git remote renaem <이름><새이름>
 ```
 
 - remote 이름 변경
+
+
+
+### Branch
+
+```bash
+$ git branch <branch name>
+$ git checkout master # master로 이동
+$ git checkout branch name # branch로 이동
+$ git checkout -b branch name
+```
+
+checkout 포인트를 만들어서 그 지점에서 branch 생성
+
+master와 합칠 때 master branch에서 작성해야함
+
+```bash
+$ git merge branch name
+```
+

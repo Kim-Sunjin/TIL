@@ -133,6 +133,14 @@ $ git remote renaem <이름><새이름>
 
 
 
+### git commit VSCODE 사용하기
+
+```bash
+$ git config --global core.editor "code --wait"
+```
+
+commit 내용을 VScode로 작성 가능
+
 ### Branch
 
 ```bash

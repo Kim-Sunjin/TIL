@@ -75,6 +75,84 @@ tuple(a)
 - Unit 14 : else 사용(두 방향으로 분기하기)
 - Unit 15 : elif를 사용
 
+### unit 13
+
+if 조건문은 특정 조건일 때 코드를 실행하는 문법이다. 
+
+```bash
+x= 10
+if x == 10: 
+    print('Value is 10')
+
+```
+
+python은 들여쓰기로 조건문 내용을 구분한다. 그렇기에 띄어쓰기에 주의할 것
+
+- 중첩 if 조건문 사용하기
+
+```bash
+x=15
+if x > 10:
+  print('10보다 큰 수입니다.')
+  if x ==15:
+    print('15입니다.')
+  if x == 20:
+    print('20입니다.')
+```
+
+
+
+### unit 14
+
+- else 사용하기
+
+if 조건문에 충족하지 않을 경우 실행되는 코드
+
+```bash
+x = 8
+if x==10:
+  print('It is 10')
+else:
+  print('It is %s' %x)
+```
+
+- 3항 연산자
+
+```bash
+# 3항 연산자의 경우 :가 안들어간다.
+y = 'even' if x%2 == 0 else 'odd'
+y
+```
+
+
+
+### unit 15
+
+- elif를 사용하여 여러 방향으로 분기할 수 있다.
+
+- ```bash
+  x=20
+  if x==10:
+      print('It is 10.')
+  elif x==20:
+      print('It is 20.')
+  else:
+      print('It is not 10, 20')
+  ```
+
+```bash
+# 숫자- 입력, 3의 배수면 Fizz 출력, 5의 배수면 Buzz, 15의 배수면 Fizzbuzz
+number = int(input())
+if number % 15 == 0: # 제일 엄격한 조건을 앞에 두기
+    print('Fizzbuzz')
+elif number % 5 ==0:
+    print('Buzz')
+elif number % 3 ==0:
+    print('Fizz')
+else:
+    print('이 수는 3, 5, 15의 배수가 아닙니다.')
+```
+
 
 
 ### Unit 16-19 반복문
